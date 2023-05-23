@@ -1,0 +1,108 @@
+/*style the whole page's font family whinin body, set the width and height to the screen size*/
+body {
+  font-family: "Pangolin", cursive;
+  height: 100%;
+  width: 100%;
+}
+
+/*style the header's background color*/
+header {
+  text-align: center;
+  background-color: #79e0ee;
+  margin-bottom: 0em;
+}
+main {
+  /*style the main part's background color*/
+  background-color: #98eecc;
+  margin-top: 0em;
+  border:1px solid #98eecc;
+}
+
+/*adjust the size of image and the location*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:50%;
+  padding-top: 1em;
+}
+
+footer {
+  background-color: #d0f5be;
+  padding-bottom: 0px;
+  border: 3px solid #d0f5be;
+}
+
+footer p{
+  width:100%;
+  
+  text-align:center;
+
+}
+
+/* style the title for each section*/
+h1,h2,
+h3 {
+  text-align: center;
+  padding: 1em;
+}
+p {
+  /*indent the patagraphs 20px, adjust the line height 1.8*/
+  text-indent: 20px;
+  line-height: 1.8;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0.5em;
+}
+
+/*use id selector change the name and title style*/
+p#name {
+  font-size: 4.5em;
+  margin: auto;
+}
+p#title {
+  font-size: 1.5em;
+  font-style: italic;
+  margin: auto;
+}
+
+/*adjust unordered list to center, and align with other texts*/
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding-bottom: 2em;
+}
+li {
+  padding-left: 46%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/*style the ordered list*/
+ol {
+  list-style-position: inside;
+}
+ol > li {
+  text-align: left;
+}
+
+/*use pseudo classes define the link*/
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr {
+  border: 3px dashed black;
+}
